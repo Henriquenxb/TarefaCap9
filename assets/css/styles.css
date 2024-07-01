@@ -1,0 +1,178 @@
+p {
+    color: white;
+}
+
+link
+body{
+    font-family: "Catamaran", sans-serif;
+    align-items: center;
+}
+
+
+.header {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #447;
+    background-color: #447;
+    color: #fff;
+}
+
+
+.bi-person {
+    width: 8vmin;
+}
+
+.titulo_nav {
+    text-align: center;
+    margin: 1rem 0 1rem;
+    color:#447;
+    font-weight: 500;
+}
+
+
+.itens {
+    padding: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.item {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.container h2{
+    margin: 10px 5px;
+    font-size: 6vmax;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.container h6{
+    margin:10px 5px;
+    font-size: 2vmax;
+    color: #fff;
+    text-transform:uppercase;
+    
+}
+
+
+header div{
+    background-color: #999;
+
+}
+
+body .renda{
+    background-color: #999;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgba(4, 9, 30, .3), rgba(4, 9, 30, .9)), url(../images/img_renda.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    flex-direction: row;
+    border-radius: 5px 35px;
+    box-shadow: 1px 1px 30px #3b3a3a;
+    transition: .5s;
+}
+
+.rendas {
+    width: 100%;
+}
+
+
+th, tr {
+    border-bottom: 2px solid #447;
+}
+
+body .gfixo{
+    background-color: #999;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgba(4, 9, 30, .3), rgba(4, 9, 30, .9)), url(../images/img_gastos_fixos\ \(2\).jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px 35px;
+    box-shadow: 1px 1px 30px #3b3a3a;
+    transition: .5s;
+
+}
+
+
+body .gvar{
+    background-color: #999;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgba(4, 9, 30, .3), rgba(4, 9, 30, .9)), url(../images/img_gastos_var.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px 35px;
+    box-shadow: 1px 1px 30px #3b3a3a;
+    transition: .5s;
+
+}
+
+
+
+
+body .metas{
+    background-color: #999;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgba(4, 9, 30, .3), rgba(4, 9, 30, .9)), url(../images/img_metas.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px 35px;
+    box-shadow: 1px 1px 30px #3b3a3a;
+    transition: .5s;
+
+}
+
+.metas:hover, .gvar:hover, .gfixo:hover, .renda:hover {
+    transform: scale(1.05);
+}
+
+
+.divbotao {
+    display: flex;
+    margin-top: auto;
+    padding: 3px;    
+
+}
+
+.btn {
+    /* margin: 0 10px 0; */
+    background-color: #447;
+    border: 2px solid black;
+    color: #fff;
+    transition: .5s;
+    font-size: 1rem;
+    margin-top: auto;
+    /* width: 35px; */
+    /* height: 35px; */
+
+}
+.btn:hover {
+    /* background-color: transparent; */
+    color: #fff;
+    opacity: 0.5;
+} 
